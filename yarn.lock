@@ -42,7 +42,7 @@
     semver "^6.3.0"
     source-map "^0.5.0"
 
-"@babel/eslint-parser@^7.12.16":
+"@babel/eslint-parser@^7.12.16", "@babel/eslint-parser@^7.15.4":
   version "7.15.4"
   resolved "https://registry.yarnpkg.com/@babel/eslint-parser/-/eslint-parser-7.15.4.tgz#46385943726291fb3e8db99522c8099b15684387"
   integrity sha512-hPMIAmGNbmQzXJIo2P43Zj9UhRmGev5f9nqdBFOWNGDGh6XKmjby79woBvg6y0Jur6yRfQBneDbUQ8ZVc1krFw==
@@ -409,10 +409,10 @@
   resolved "https://registry.yarnpkg.com/@upleveled/eslint-config-upleveled/-/eslint-config-upleveled-1.16.0.tgz#d945440556ad0f8e690c7804420a973983114489"
   integrity sha512-HWEtAGYEs7D2zpMFXR58Kbi/h8vcRgVXr/OaE8ASCFZRbgVn12/YCdzy0x/xcDp4LfWXBMPyc+qMOC/XEixvnQ==
 
-"@upleveled/eslint-plugin-upleveled@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@upleveled/eslint-plugin-upleveled/-/eslint-plugin-upleveled-1.0.0.tgz#ed9a5ef554faccf970b26c8a6477877b7b8aabd4"
-  integrity sha512-MPJNNbrYXiSeE4hX8zjqIYBu+XKK8IrN7h7zKAGnnvNovj3MuoL2dkql6PDHLJQ0xiWowJ8o+v6WG2Y8EnD6vg==
+"@upleveled/eslint-plugin-upleveled@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@upleveled/eslint-plugin-upleveled/-/eslint-plugin-upleveled-1.1.0.tgz#bbf146a307bbbd0a7d87e555b8f738dc974fe54f"
+  integrity sha512-IRJ+EWlWUmabO6DmqSsmmaRpU+JglzRNZxAcbmre9FwDQMjAT+kyfBSOlkVpR8y/oaOyxWC3pW/lytVO3cvppw==
 
 acorn-jsx@^5.3.1:
   version "5.3.2"
