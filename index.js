@@ -1,9 +1,14 @@
 import fs from 'node:fs';
+import * as dotenv from 'dotenv';
 import monkeyLearn from 'monkeylearn';
 import getPercentages from './getPercentages.js';
 
-const ml = new monkeyLearn('3853810e1ef91b00d865292289d995a85c68af28');
-const modelId = 'cl_pi3C7JiL';
+dotenv.config();
+
+// import { API_KEY, MODEL_ID } from '.env';
+
+const ml = new monkeyLearn(process.env.API_KEY);
+const modelId = process.env.MODEL_ID;
 
 let wholeText = []; // an array filled with wholeTextContent
 let wholeTextContent = ''; // a string containing all words separated by whitespace

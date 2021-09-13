@@ -35,6 +35,7 @@
     "eslint-plugin-testing-library": "4.6.0"
   },
   "dependencies": {
+    "dotenv": "^10.0.0",
     "monkeylearn": "^3.4.0"
   }
 }
